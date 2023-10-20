@@ -10,7 +10,7 @@ def hello(name=None):
     "name":"Alex",
     "age":"42"
     },
-    "name":"Serg",
+    {"name":"Serg",
     "age":"39"
     }]
     return render_template('index.html', name=name, my_list=my_list)
